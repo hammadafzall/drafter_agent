@@ -1,0 +1,9 @@
+langchain-core
+
+langchain
+
+langchain-community
+
+langgraph
+
+python-dotenv
