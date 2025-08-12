@@ -1,9 +1,12 @@
-langchain-core
+# Core dependencies for Drafter Agent
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+langgraph>=0.2.0
+openai>=1.0.0
 
-langchain
+# Environment and utility dependencies
+python-dotenv>=1.0.0
+pathlib2>=2.3.0; python_version < "3.4"
 
-langchain-community
-
-langgraph
-
-python-dotenv
+# Optional: For better development experience
+typing-extensions>=4.0.0
